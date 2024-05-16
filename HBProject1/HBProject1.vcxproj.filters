@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="main.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HBProject1.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\bag.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\digger.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\gold.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\stone.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\bag.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\digger.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\gold.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\stone.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\hook.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\background.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\start.jpeg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\start.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\start.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\line.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\bombv.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\power.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\speed.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\stonev.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\success.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\fail.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\diamond.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Source\tnt.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Source\music\startgame.mp3" />
+    <Media Include="Source\music\startgame.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Source\music\boomb.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Source\music\set-xpx.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="Source\music\boomb.mp3" />
+    <Media Include="Source\music\set_xpx.mp3" />
+  </ItemGroup>
+</Project>
